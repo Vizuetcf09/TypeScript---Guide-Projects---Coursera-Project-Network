@@ -1,0 +1,102 @@
+---
+Author:
+  - Vizuet Cruz Fernando Ivan
+Course:
+  - TypeScript Variables and Data Types
+Module:
+  - Project Material
+Lab:
+  - Project-based Course Overview
+Instruction:
+  - 1.1.2.1 - Introduction to TypeScript
+Intructor:
+  - Chaitra Deshpande
+Level:
+  - Begginer
+Institution:
+  - Coursera Project Network
+State: true
+---
+# TypeScript
+
+# Variables and Data types
+# Content
+
+1. What and Why TypeScript?, How TypeScript Run in the Browser?
+2. Identifiers, Comments.
+3. Variable Declaration
+4. Variables: ``var``, ``let``, ``const``.
+5. Scope of Variables.
+6. TypesScript Inference.
+
+# What and Why  TypeScript?
+
+## What is TypeScript?
+
+- TypeScript (TS) is an open source object-oriented language developed and mantained by Microsoft.
+- TS is a superset of JavaScript (JS) that compiles to plain TS.
+- Basically TS - JS + additional features.
+## Why TypeScript?
+
+- TS is simple, fast and easy to learn.
+- TS supports all JS libraries.
+- TS is statically typed programming language, so it´s more predictable and easy to debug and it scale to build complex applications.
+- TS provides compile-time error-checking.
+- Since it support types system, wich increase the code quality, readability and makes it easy to maintain.
+- Cross-platform.
+- Object-Oriented Language.
+- Static type-checking.
+- Optional static typing.
+
+# Identifiers - names
+
+An identifiers is a name we use to identify things like variables, functions, etc. There rules and conventions when it comes to identifiers.
+
+- A name canot start with a numerical values, but may contain numbers inside it.
+- A name may starts with uppercase letter (A-Z), lowecase letters (a-z) and inderscores.
+- A name should not contain special characters like %, #, $, etc.
+- Must names are case sensitive, means name with lowercase letters is not same as a name contain spaces.
+- It cannot contain spaces.
+- A name should not contain TS specific keyword.
+
+> [!Notes] #### Keywords
+> 
+> Keyword are words that are reserved for specific uses. 
+> 
+> Examples:
+> 
+> 1. `if`
+> 2. `else`
+> 3. `enum`
+> 4. etc.
+
+## Examples names
+
+| Valid Identifiers                                            | Invalid Identifiers                  |
+| ------------------------------------------------------------ | ------------------------------------ |
+| ``numbers_5``                                                | `5nnumbers`                          |
+| ``Name, name, _name``                                        | `user@123`                           |
+| ``// not the same``<br>``Username, username, USERNAME.``<br> | `first name`                         |
+| ``firstNmae, first_name``                                    | `// not allowed`<br>`if, enum, else` |
+# Comments
+
+Single Comments:
+
+```typescript
+// This is single line comment
+```
+
+Multiline Comments:
+
+```typescript
+/* this is multiple
+	line comments
+	expample 1, example 2 */
+```
+
+
+
+---
+# Intruction Link
+
+1. [Introduction to TypeScript](https://www.coursera.org/learn/typescript-variables-and-data-types/ungradedLab/91nRX/typescript-variables-and-data-types/lab)
