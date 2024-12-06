@@ -51,19 +51,73 @@ La anterior línea de código esta formada por diferentes componentes (**Image 1
 6. ``"Hello World"``: Valor inicial (inicialización).
 ![[Image1122 - How to Desclare Variables in TypeScript.png]]
 **Image 1.1.2.2.1**. How to Desclare Variables in TypeScript.
-# Different Ways to Declare Variables
+
+# How to assign value to a variable with assignment operator `=`
+
+La asignación de un valor se realiza con el operador de asignación: `=`, todo aquello que este después de este operador, es el valor asignado, para una variable, pueden ser números, cadenas de caracteres, boléanos, etc.
 
 ```typescript
-var a : number;  // data type
-var b : 10;  // initial value
-var c :  number = 10;  // type and initial value
-var d;  // without type and initial value
+var empName1 : string = "Ivan";  // Declaration
 ```
 
+# Different Ways to Declare Variables
 
->[!Note] #### Exercises Code
->
-> - 
+How to declare variables in TS
+
+There are 4 ways to declare initial value:
+
+1. Both type and initial value
+
+```typescript
+//
+// 1. Both: type and initial value
+//
+var a :  number = 10;  // type and initial value
+//
+console.log(a);
+//
+// endcode
+//
+```
+
+2. Only type
+
+```typescript
+//
+// 2. Only type
+//
+var b : number;  // only type
+//
+// endcode
+//
+```
+
+3. Only the initial value
+
+```typescript
+//
+// 3. Only the initial valuee
+//
+var c : 10;  // initial value
+//
+// endcode
+//
+```
+
+1. Without the type and the initial value
+
+```typescript
+//
+// 1. Both: type and initial value
+//
+var d;  // without type and initial value
+d = 4
+//
+console.log(d);
+//
+// endcode
+//
+```
 
 ---
 # Intruction Link
