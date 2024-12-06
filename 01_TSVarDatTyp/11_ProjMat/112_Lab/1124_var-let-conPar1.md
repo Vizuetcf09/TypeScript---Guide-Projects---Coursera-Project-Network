@@ -17,7 +17,7 @@ Institution:
   - Coursera Project Network
 State:
 ---
-# Differences between `var` vs `let` vs `const`
+# Differences between `var` vs `let` vs `const` Part 1
 
 La siguiente tabla muestra las diferencias entre las variables.
 

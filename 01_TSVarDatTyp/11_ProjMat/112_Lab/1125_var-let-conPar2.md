@@ -17,8 +17,7 @@ Institution:
   - Coursera Project Network
 State:
 ---
-# `var` vs `let` vs `const` 
-# The Difference Between of `var`, `let` and `const` Global and Function Scopes
+# Differences between `var` vs `let` vs `const` Part 2
 
 **Table 1.1.2.4.1**. `var` vs `let` vs `const`.
 
@@ -27,13 +26,11 @@ State:
 | Can de declared without deing initilised. | Can de declared without deing initilised. | Must de initialised during declaration. |
 | Can be be re-declared and update          | Can be update but cannot be re-declared.  | Cannot be update or re-declared         |
 | Are function scoped/global scope          | Are block scope                           | Declaration are block scope             |
+# The Difference Between of `var`, `let` and `const` Global and Function Scopes
+
+ 
 
 
-
-
->[!Note] #### Exercises Code
->
-> - 
 ---
 # Intruction Link
 
