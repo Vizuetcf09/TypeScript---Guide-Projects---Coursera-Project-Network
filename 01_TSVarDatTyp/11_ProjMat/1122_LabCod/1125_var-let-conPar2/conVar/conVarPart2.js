@@ -6,34 +6,36 @@
 //
 // const global scope
 //
-var varGloSco = 100; //
-console.log("const global scope:", varGloSco);
+var constGloSco = 100;
+/* Una ves definida la constante "constGloSco" en un archivo en el mismo proyecto, el nombre de esa constante no puede ser utilizado en nungun otro archivo dentro del mismo proyecto */
+//
+console.log("const global scope:", constGloSco);
 //
 // const function scope
 //
 function conFunSco() {
-    console.log("const global scope", varGloSco);
+    console.log("const global scope", constGloSco);
     /*
-    Las variables globales definidas con "const", tambien son validas dentro del scope de las funciones
+    Las constantes globales definidas con "const", tambien son validas dentro del scope de las funciones
     */
-    // const varGloSco = 200;
+    // const constGloSco = 200;
     /*
-    Si redefinimos la variable "varGloSco", dentro del scope de la función, entonces estamos definiendo una nueva variables, que solo existe dentro del scope de la función
+    Si redefinimos la constante "constGloSco", dentro del scope de la función, entonces estamos definiendo una nueva constante, que solo existe dentro del scope de la función
     */
-    var varFunSco = varGloSco;
+    var constFunSco = constGloSco;
     /*
-    Definimos la variable "varFunSco" y le asignamos la variable "varGloSco" como valor, para evitar confuciones
+    Definimos la constante "constGloSco" y le asignamos la variable "varGloSco" como valor, para evitar confuciones
     */
     if (true) {
-        console.log("const function scope:", varFunSco);
+        console.log("const function scope:", constFunSco);
     }
-    console.log("const function scope", varFunSco);
+    console.log("const function scope", constFunSco);
 }
 //
 console.log(conFunSco());
-console.log("const global scope", varGloSco);
-// 
-// console.log(varFunSco);
+console.log("const global scope", constGloSco);
+//
+// console.log(constFunSco);
 /*
 Esta Variable, no esiste en el scope global, solo dentro del scope de la función
 */
