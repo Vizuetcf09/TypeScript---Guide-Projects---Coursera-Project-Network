@@ -43,5 +43,17 @@ console.log("const global scope", constGloSco);
 Esta Variable, no esiste en el scope global, solo dentro del scope de la función
 */
 //
+// "example3" function
+// 
+function example3() {
+  if (true) {
+    const x = 100;
+    console.log(x);  // only block scoped
+  }
+  // console.log(x);  // error: cannot find name "x" | not function scoped
+}
+// 
+console.log(example3());
+//
 // endcode
 //

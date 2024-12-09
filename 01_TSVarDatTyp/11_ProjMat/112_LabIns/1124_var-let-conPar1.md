@@ -15,7 +15,7 @@ Level:
   - Begginer
 Institution:
   - Coursera Project Network
-State:
+State: true
 ---
 # Differences between `var` vs `let` vs `const` Part 1
 

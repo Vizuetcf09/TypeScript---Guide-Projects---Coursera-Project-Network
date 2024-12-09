@@ -39,5 +39,17 @@ function varFunSco() {
 console.log(varFunSco());
 console.log("var global scope", varGloSco);
 //
+// "example1" functions
+// 
+function example1() {
+  if (true) {
+    var x = 100;
+    console.log(x);  // block scoped
+  }
+  console.log(x);  // function scoped
+}
+// 
+console.log(example1());
+// 
 // endcode
 //

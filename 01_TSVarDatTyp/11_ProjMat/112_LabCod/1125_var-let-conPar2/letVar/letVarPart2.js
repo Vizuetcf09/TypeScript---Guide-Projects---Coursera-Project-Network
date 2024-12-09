@@ -32,11 +32,25 @@ function letFunSco() {
 //
 console.log(letFunSco());
 console.log("let global scope", varGloSco);
-// 
+//
 // console.log("let global scope", varFunSco);
 /*
 La variable "varFunSco", no se imprime, ya que no esta definida en el scope global, pero si dentro del scope de la función, y no es posible acceder a ella de esta forma, a menos que la definamos en el scope global tambien
 */
+//
+// "example2" function
+//
+var x = 100;
+function example2() {
+    if (true) {
+        // let x = 100;
+        console.log(x); // only block scoped
+    }
+    // uncomment below to demostrate error
+    // console.log(x);  // error: cannot find name "x" | not function scoped
+}
+//
+console.log(example2());
 //
 // endcode
 //

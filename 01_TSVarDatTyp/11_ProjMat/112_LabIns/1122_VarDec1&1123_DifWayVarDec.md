@@ -57,12 +57,12 @@ La anterior línea de código esta formada por diferentes componentes (**Image 1
 La asignación de un valor se realiza con el operador de asignación: `=`, todo aquello que este después de este operador, es el valor asignado, para una variable, pueden ser números, cadenas de caracteres, boléanos, etc.
 
 ```typescript
-var empName1 : string = "Ivan";  // Declaration
+var message : string = "Vizuet";  // Declaration
 ```
 
 # Different Ways to Declare Variables
 
-How to declare variables in TS
+## How to declare variables in TS. 
 
 There are 4 ways to declare initial value:
 
@@ -72,7 +72,7 @@ There are 4 ways to declare initial value:
 //
 // 1. Both: type and initial value
 //
-var a :  number = 10;  // type and initial value
+var a :  number = 1;  // type and initial value
 //
 console.log(a);
 //
@@ -86,7 +86,10 @@ console.log(a);
 //
 // 2. Only type
 //
-var b : number;  // only type
+let b: number; // only type
+b = 2;
+//
+console.log(b);
 //
 // endcode
 //
@@ -98,20 +101,22 @@ var b : number;  // only type
 //
 // 3. Only the initial valuee
 //
-var c : 10;  // initial value
+let c = 3; // only initial value
+//
+console.log(c);
 //
 // endcode
 //
 ```
 
-1. Without the type and the initial value
+4. Without the type and the initial value
 
 ```typescript
 //
-// 1. Both: type and initial value
+// 4. Both: type and initial value
 //
-var d;  // without type and initial value
-d = 4
+let d; // without type and initial value
+d = 4;
 //
 console.log(d);
 //
