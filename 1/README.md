@@ -2,12 +2,13 @@
 Author:
   - Vizuet Cruz Fernando Ivan
 Course:
-  - TypeScript Variables and Data Types
+  - 01 - TypeScript Variables and Data Types
 Intructor:
   - Chaitra Deshpande
 Institution:
   - Coursera Project Network
-Level: Begginer
+Level:
+  - Begginer
 ---
 # What you'll learn
 
