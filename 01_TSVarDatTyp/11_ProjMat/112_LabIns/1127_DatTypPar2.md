@@ -17,7 +17,25 @@ Institution:
   - Coursera Project Network
 State:
 ---
-#
+# Data Types
+
+## Special data types
+
+**Table 1.1.2.6.1**. Special Data Types.
+
+| Data Types | Description                                                                            |
+| ---------- | -------------------------------------------------------------------------------------- |
+| Void       | `void` implies no data. This is typically used when you are defining functions.        |
+| Undefined  | Absence of the variable itself.                                                        |
+| Null       | Absence of a value for variable.                                                       |
+| Never      | When you are sure that something is never goin to hapen. Ex: infinite loop never stop. |
+| Any        | `any` signifies any type of data.                                                      |
+|            |                                                                                        |
+> [!Note] #### These are used in advanced cases.
+
+
+
+
 
 ---
 # Intruction Link
